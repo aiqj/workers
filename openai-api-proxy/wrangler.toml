@@ -1,0 +1,16 @@
+name = "fireworks"
+main = "src/index.js"
+compatibility_date = "2025-04-21"
+
+[vars]
+DEFAULT_OPENAI_PROVIDER = "https://api.fireworks.ai/inference"
+DEFAULT_OPENAI_TOKEN = "fw_3ZLxTc6tHATsi4yBobZVtjv8"
+API_KEY = "sk-123"
+
+# 定义环境变量
+[vars.development]
+DEBUG = "true"
+
+# 定义环境变量
+[vars.production]
+DEBUG = "false"

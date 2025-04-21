@@ -1,0 +1,16 @@
+{
+  "name": "openai-api-proxy",
+  "version": "1.0.0",
+  "description": "OpenAI API proxy for Cloudflare Workers",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "itty-router": "^4.0.23"
+  },
+  "devDependencies": {
+    "wrangler": "^4.12.0"
+  }
+} 
